@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:statusBarColor="#66b2ff"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#ffffff">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip">
+
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="200.0dip">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView  android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/logo_txt" />
+                </FrameLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:layout_marginBottom="10dip"
+                android:text="@string/judul_buta_warna"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"
+                android:textStyle="bold"
+                android:paddingLeft="5dp" />
+
+            <View android:background="@color/home_cross_line_color2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="@string/isi_buta_warna"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:paddingLeft="5dp" />
+
+            <TextView android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:layout_marginBottom="10dip"
+                android:text="@string/judul_gejala_buta_warna"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"
+                android:textStyle="bold"
+                android:paddingLeft="5dp" />
+
+            <View android:background="@color/home_cross_line_color2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="@string/gejala_buta_warna"
+                android:paddingLeft="5dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:layout_marginBottom="10dip"
+                android:text="Jenis gangguan penglihatan pada manusia dalam menangkap cahaya warna"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"
+                android:textStyle="bold"
+                android:paddingLeft="5dp" />
+
+            <View android:background="@color/home_cross_line_color2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="1. Anomalous trichromacy"
+                android:paddingLeft="5dp"
+                android:textSize="18dp" />
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Anomalous trichromacy adalah gangguan penglihatan warna yang dapat disebabkan oleh faktor keturunan atau dapa diakibatkan karena adanya kerusakan pada sel mata setelah dewasa."
+                android:paddingLeft="5dp"
+                android:paddingBottom="8dp"
+                android:textSize="15dp" />
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="2. Monochromacy"
+                android:paddingLeft="5dp"
+                android:textSize="18dp" />
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Monochromacy adalah keadaan di mana mata manusia hanya memiliki satu sel pigmen cones atau bisa juga diakibatkan tidak berfungsinya semua sel cones"
+                android:paddingLeft="5dp"
+                android:paddingBottom="8dp"
+                android:textSize="15dp" />
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="3.Dichromacy"
+                android:paddingLeft="5dp"
+                android:textSize="18dp" />
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Dichromacy adalah jenis gangguan buta warna yang disebabkan karena salah satu dari tiga sel cone tidak ada atau tidak berfungsi. Adanya gangguan pada salah satu sel pigmen cone, akan menyebabkan terjadinya gangguan penglihatan terhadap warna-warna tertentu."
+                android:paddingLeft="5dp"
+                android:paddingBottom="8dp"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

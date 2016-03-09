@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ishihara Test </string>
+    <string name="action_settings">SETTING</string>
+    <string name="title_activity_main">TES ISHIHARA</string>
+    <string name="action_exit">EXIT</string>
+    <string name="title_activity_show_score">HASIL TES</string>
+    <string name="title_activity_about_me">TENTANG APP </string>
+    <string name="title_activity_how_to_use">CARA PENGGUNAAN</string>
+    <string name="touch_effect_description">
+        This TextView is placed into a LinearLayout which uses the TouchEffectAnimator class to
+        perform this touch animation. This is the same class that is used on FlatButtons to achieve
+        the same animation. You can look at the sample project to see the usage of this animator
+        class and you can use it regardless of this FlatUI Library by just copying the
+        TouchEffectAnimator class to your project.
+    </string>
+    <string name="title_activity_test">TES ISHIHARA</string>
+    <string name="title_activity_activity_main">TES ISHIHARA</string>
+    <string name="title_activity_info_buta_warna">INFORMASI BUTA WARNA</string>
+    <string name="title_activity_feedback">FEEDBACK</string>
+    <string name="title_activity_petunjuk">PETUNJUK TES</string>
+    <string name="judul_buta_warna">APA ITU BUTA WARNA ?</string>
+    <string name="isi_buta_warna">
+        Buta warna adalah kekurangan penglihatan atas warna. Mata tidak akan melihat warna seperti biasanya jika ada masalah dengan pigmen pada reseptor warna. Jika salah satu pigmen hilang, maka mata akan memiliki masalah melihat warna tertentu. Penderita buta warna bisa kesulitan melihat warna merah, hijau, biru, atau campuran warna-warna ini. Namun pada kondisi penderita buta warna total, tidak ada warna yang dapat dilihat sama sekali dan hal ini sangat jarang terjadi.
+    </string>
+    <string name="judul_gejala_buta_warna">GEJALA BUTA WARNA</string>
+    <string name="gejala_buta_warna">
+        Penderita buta warna mungkin hanya bisa melihat beberapa gradasi warna, sementara sebagian besar orang dapat melihat ratusan warna. Sebagai contoh, ada penderita buta warna tidak dapat membedakan antara warna merah dan hijau, namun bisa melihat warna biru dan kuning dengan mudah. Beberapa orang bahkan tidak menyadari bahwa dirinya mengalami buta warna hingga mereka menjalani tes penglihatan warna.
+    </string>
+
+</resources>

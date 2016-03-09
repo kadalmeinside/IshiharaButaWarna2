@@ -1,0 +1,113 @@
+<LinearLayout
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:background="@drawable/service_bkg_up"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+tools:context="com.ishiharatest.kkart.ishiharabutawarna.MainActivity">
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="match_parent" android:text="TES BUTA WARNA" />
+
+    </RelativeLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="200.0dip">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/service_logo_eye"  />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:showDividers="middle"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="#eeeaea">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_weight="1.0" android:showDividers="middle">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="bottom"
+                android:paddingBottom="20dp">
+                <RelativeLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:gravity="bottom">
+                    <ImageView
+                        android:id="@+id/btnStart"
+                        android:layout_width="match_parent"
+                        android:layout_height="80.0dip"
+                        android:src="@drawable/service_icon_play_service"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="top" />
+                </RelativeLayout>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="#212121" android:layout_gravity="center" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MULAI-TES"
+                    android:layout_marginTop="0dp" />
+            </LinearLayout>
+
+            <View android:background="@color/home_cross_line_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="bottom"
+                android:paddingBottom="20dp">
+                <RelativeLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:gravity="bottom">
+                    <ImageView
+                        android:id="@+id/btnAbout"
+                        android:layout_width="match_parent"
+                        android:layout_height="80.0dip"
+                        android:src="@drawable/service_icon_about_service"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="top" />
+                </RelativeLayout>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="#212121" android:layout_gravity="center" android:paddingTop="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TENTANG" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/home_cross_line_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:showDividers="middle">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+                <RelativeLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="100.0dip"
+                    android:gravity="bottom">
+                    <ImageView
+                        android:id="@+id/btnButaWarna"
+                        android:layout_width="80.0dip"
+                        android:layout_height="80.0dip"
+                        android:src="@drawable/service_icon_txt_service"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="top" />
+                </RelativeLayout>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="#212121" android:layout_gravity="center"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="INFORMASI" />
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="#212121" android:layout_gravity="center"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BUTA WARNA" />
+            </LinearLayout>
+            <View android:background="@color/home_cross_line_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0">
+                <RelativeLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="100.0dip"
+                    android:gravity="bottom">
+                    <ImageView
+                        android:id="@+id/btnKeluar"
+                        android:layout_width="80.0dip"
+                        android:layout_height="80.0dip"
+                        android:src="@drawable/service_icon_close_service"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="top" />
+                </RelativeLayout>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="#212121" android:layout_gravity="center"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EXIT" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

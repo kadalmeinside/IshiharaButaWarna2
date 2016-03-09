@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btnStart" type="id">btnStart</item>
+    <item name="txtKeluar" type="id">btnKeluar</item>
+    <item name="btnButaWarna" type="id">btnButaWarna</item>
+    <item name="btnKeluar" type="id">btnKeluar</item>
+    <item name="btnAbout" type="id">btnAbout</item>
+    <item name="textView2" type="id">textView2</item>
+    <item name="itemAboutMe" type="id">itemAboutMe</item>
+    <item name="itemHowTo" type="id">itemHowTo</item>
+</resources>

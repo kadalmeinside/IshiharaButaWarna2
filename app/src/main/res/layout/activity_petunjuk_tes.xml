@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".FeedBackActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:statusBarColor="#66b2ff">
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:background="#ffffff">
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dip">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:layout_marginBottom="10dip"
+                    android:text="PETUNJUK TEST"
+                    android:textSize="20dip"
+                    android:textColor="#0b84aa"
+                    android:textStyle="bold"
+                    android:paddingLeft="5dp" />
+
+                <View android:background="@color/home_cross_line_color2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+
+                <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#372c24"
+                    android:text="Tes Berupa 21 plate ishihara. pengguna harus menjawab setiap plate yang ditampilkan pada halaman tes. plate berisi lingkaran lingkaran warna yang membentuk angka. isikan jawaban anda pada form. berikut adalah gambar form"
+                    android:textIsSelectable="true"
+                    android:textSize="15dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="8dp" />
+
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="100dp">
+                     <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/formjawab"
+                         android:paddingBottom="8dp" />
+                </LinearLayout>
+
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#372c24"
+                    android:text="Jika angka pada plate tidak terlihat atau tidak jelas pilih check box tidak terlihat yang terletak dibawah form. diwah ini adalah gambar checkbox tidak terlihat"
+                    android:paddingLeft="5dp"
+                    android:textSize="15dp"
+                    android:paddingBottom="8dp" />
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="50dp">
+                    <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tidakterlihat"
+                        android:paddingBottom="8dp" />
+                </LinearLayout>
+
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#372c24"
+                    android:text="Jika anda sudah yakin dengan jawaban anda silahkan klik tombol lanjut untuk melanjutkan ke plate berikutnya. dibawah ini adalah gambar tombol lanjut"
+                    android:paddingLeft="5dp"
+                    android:textSize="15dp"
+                    android:paddingBottom="8dp" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="80dp"
+                    android:gravity="center_vertical|center">
+                    <ImageView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tombollanjut"
+                        android:paddingBottom="8dp" />
+                </LinearLayout>
+
+                <TextView android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#372c24"
+                    android:text="Jika anda sudah selesai menjawab 21 plate maka aplikasi akan otomatis menampilkan halaman hasil test"
+                    android:paddingLeft="5dp"
+                    android:textSize="15dp"
+                    android:paddingBottom="50dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:text="Mulai Tes"
+        android:singleLine="false"
+        android:onClick="clickMulai"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="15dp">
+    </Button>
+</RelativeLayout>
+

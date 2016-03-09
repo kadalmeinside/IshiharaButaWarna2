@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff373737</color>
+    <color name="colorPrimaryDark">#ff373737</color>
+    <color name="colorAccent">#474747</color>
+    <color name="white">#ffffffff</color>
+    <color name="home_cross_line_color">#80ffffff</color>
+    <color name="home_cross_line_color2">#80373737</color>
+</resources>

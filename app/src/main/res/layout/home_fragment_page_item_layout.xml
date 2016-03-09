@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_weight="1.0" android:showDividers="middle">
+        <Button android:text="Mulai Test" android:id="@+id/btnStart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/home_cross_line_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:text="Tentang" android:id="@+id/btnAbout"  android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/home_cross_line_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:showDividers="middle">
+        <Button android:text="Buta Warna" android:id="@+id/txtButaWarna" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/home_cross_line_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <Button android:text="Exit" android:id="@+id/txtKeluar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

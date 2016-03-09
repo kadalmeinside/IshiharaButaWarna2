@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="times1">
+
+        <item>12</item>
+        <item>2</item>
+        <item>1</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+
+    <string-array name="times2">
+
+        <item>3</item>
+        <item>8</item>
+        <item>5</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times3">
+
+        <item>3</item>
+        <item>9</item>
+        <item>8</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times4">
+
+        <item>12</item>
+        <item>17</item>
+        <item>15</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times5">
+
+        <item>28</item>
+        <item>29</item>
+        <item>20</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times6">
+
+        <item>32</item>
+        <item>7</item>
+        <item>57</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times7">
+
+        <item>74</item>
+        <item>72</item>
+        <item>81</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times8">
+
+        <item>5</item>
+        <item>7</item>
+        <item>2</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times9">
+
+        <item>5</item>
+        <item>8</item>
+        <item>6</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times10">
+
+        <item>2</item>
+        <item>7</item>
+        <item>5</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times11">
+
+        <item>7</item>
+        <item>8</item>
+        <item>2</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times12">
+
+        <item>16</item>
+        <item>15</item>
+        <item>6</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times13">
+
+        <item>45</item>
+        <item>48</item>
+        <item>8</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times14">
+
+        <item>3</item>
+        <item>73</item>
+        <item>7</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times15">
+
+        <item>5</item>
+        <item>8</item>
+        <item>6</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times16">
+
+        <item>97</item>
+        <item>95</item>
+        <item>87</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times17">
+
+        <item>6</item>
+        <item>5</item>
+        <item>7</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times18">
+
+        <item>26</item>
+        <item>6</item>
+        <item>2</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times19">
+
+        <item>3</item>
+        <item>35</item>
+        <item>5</item>
+        <item>9</item>
+
+    </string-array>
+    <string-array name="times20">
+
+        <item>42</item>
+        <item>2</item>
+        <item>4</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+    <string-array name="times21">
+
+        <item>6</item>
+        <item>96</item>
+        <item>9</item>
+        <item>Tidak Ada</item>
+
+    </string-array>
+</resources>

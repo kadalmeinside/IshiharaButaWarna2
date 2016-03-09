@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f1efef"
+    tools:context=".TestActivity"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp">
+
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#ffffff"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp">
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/textView2"
+            android:textColor="#000000"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Plate 1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/satu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="#ffffff"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/plate01"  />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+        <LinearLayout  android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_weight="0.54"
+            android:paddingLeft="10dp">
+        <TextView
+            android:gravity="left"
+            android:layout_gravity="left|center"
+            android:id="@+id/textView4"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angka berpakah ini ?"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <CheckBox
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tidak Terlihat"
+            android:id="@+id/checkBoxAnswer"
+            android:layout_marginLeft="15dp"
+            android:checked="false"
+            android:textColor="#000000" />
+        </LinearLayout>
+        <View android:background="@color/home_cross_line_color2" android:layout_width="fill_parent" android:layout_height="1.0px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+        <LinearLayout  android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_weight="0.54"
+            android:paddingLeft="10dp">
+            <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editAnswer"
+                android:maxLength="2"
+                android:textColor="#000000"
+                android:paddingTop="30dp" />
+
+            <ImageView
+                android:src="@drawable/icon_next_service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/btnAnswer"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

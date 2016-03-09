@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splashScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/service_logo_eye"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_alignParentBottom="true"  android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="match_parent" android:text="Universitas Pamulang | gilangparase" />
+    </RelativeLayout>
+
+</RelativeLayout>
+
